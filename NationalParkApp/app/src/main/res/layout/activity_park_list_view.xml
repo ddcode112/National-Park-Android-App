@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/parkImage"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/fullName"
+        android:layout_toRightOf="@id/parkImage"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/entranceFee"
+        android:layout_toRightOf="@id/parkImage"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fullName"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/url"
+        android:layout_toRightOf="@id/parkImage"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entranceFee"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/description"
+        android:layout_below="@id/parkImage"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:text="TextView" />
+</RelativeLayout>
